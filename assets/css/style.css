@@ -1,0 +1,246 @@
+@import url(bootstrap.min.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html { font-size: 16px; }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    padding: 0px 20px;
+}
+
+/* Background CSS*/
+.hero-section {
+    position: relative;
+    height: 50rem;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #FFF3F3;
+}
+
+.custom-shape-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 146px;
+}
+
+.custom-shape-1 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*HeaderCSS*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding-top: 30px;
+}
+
+#logo img {
+    height: 40px;
+    width: auto;
+}
+
+.main-menu a {
+    display: inline-block;
+}
+
+/*Hero CSS*/
+
+.hero-content h1 {
+    padding-top: 150px;
+}
+
+/*Features CSS*/
+.feature-item {
+    padding: 10px 20px;
+}
+
+.feature-card {
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.feature-card::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: -25px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#feature-1 { background-color: #05B18A; }
+#feature-1::after { 
+    content: url(../images/shield.png);
+    border: 2px solid #05B18A; 
+}
+
+#feature-2 { background-color: #efa459; }
+#feature-2::after { 
+    content: url(../images/lock.png);
+    border: 2px solid #efa459; 
+}
+
+#feature-3 { background-color: #e3299d; }
+#feature-3::after { 
+    content: url(../images/monitor.png);
+    border: 2px solid #e3299d; 
+}
+
+#feature-4 { background-color: #4eabff; }
+#feature-4::after { 
+    content: url(../images/support.png);
+    border: 2px solid #4eabff; 
+}
+
+/*Price Table CSS*/
+.pricing-section {
+    background-color: #F5FBF8; 
+}
+
+.fa-check-circle {
+    font-size: 1.2rem;
+    color: #15b390;
+    padding-right: 5px;
+}
+
+.fa-times-circle {
+    font-size: 1.2rem;
+    color: #fd5252;
+    padding-right: 5px;
+}
+
+.pricing-card {
+    padding: 20px;
+}
+
+.pricing-details {
+    background: rgba(255, 255, 255, 0.3);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 40px 20px 20px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.price-list {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.price-list li {
+    padding: 5px 0px;
+}
+
+.pricing-details p sup {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.price-btn {
+    border-style: none;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-bottom:5px;
+    background-color: #02AD88;
+    color: #ffffff;
+}
+
+footer {
+    position: relative;
+    padding: 120px 0px;
+    color: #ffff;
+    background-color: #1D1D3F;
+}
+
+.custom-shape-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-2 .shape-fill {
+    fill: #ffffff;
+}
+
+.custom-shape-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-3 .shape-fill {
+    fill: #4eabff;
+}
+
+.links a {
+    display: block;
+    padding: 4px 0px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.compyright {
+    background-color: #ffffff;
+}
