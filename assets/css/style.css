@@ -1,29 +1,136 @@
 @import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Dosis', sans-serif;
 }
 
 html { font-size: 16px; }
+
+h1, h4, h5, h6 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    color: rgba(41, 12, 78, 0.7);
+}
 
 img {
     width: 100%;
     height: auto;
 }
 
-.row {
-    padding: 0px 20px;
+.section-header h1 {
+    font-size: 2.5em;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.12);
 }
 
-/* Background CSS*/
+.section-header p {
+    font-size: 1.1em;
+    font-weight: 500;
+    word-spacing: 2px;
+    line-height: 1.5;
+    padding-top: 10px;
+    color: rgb(116, 116, 116);
+}
+
+/*Header and Hero Section CSS*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 30px 20px;
+}
+
+#logo img {
+    height: 2.5rem;
+    width: auto;
+}
+
+.main-menu a {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #7B5CFE;
+}
+
+.main-menu a:hover {
+    padding: 5px 15px;
+    border-radius: 25px;
+    border-radius: 16px;
+    border: 1px solid rgba(216, 216, 216, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
 .hero-section {
     position: relative;
-    height: 50rem;
-    width: 100%;
-    padding: 30px 0px;
+    padding-top: 50px;
+    padding-bottom: 200px;
     background-color: #FFF3F3;
+}
+
+.hero-content { padding: 0px 20px 80px; }
+
+.hero-content h1 {
+    font-size: 2.6em;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.12);
+}
+.hero-des {
+    padding-top: 40px;
+}
+
+.hero-des span {
+    font-size: 1em;
+    font-weight: 600;
+    color: #9b84ff;
+}
+
+.hero-des p {
+    font-size: 1.3em;
+    font-weight: 600;
+    word-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(116, 116, 116);
+}
+
+.trial-email {
+    height: 2.58rem;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 18px;
+    border-radius: 20px;
+    border-style: none;
+    border: 1px solid rgba(216, 216, 216, 0.5);
+    box-shadow: 0px 0px 5px rgba(216, 216, 216, 0.12);
+}
+
+.trial-email:focus {
+    outline: #05B18A;
+    border: 1px solid #05B18A;
+}
+
+.trial-btn, .message-btn {
+    height: 2.5rem;
+    width: 7.5rem;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #05B18A;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .custom-shape-1 {
@@ -39,7 +146,7 @@ img {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 146px;
+    height: 9.1rem;
 }
 
 .custom-shape-1 .shape-fill {
@@ -55,32 +162,29 @@ img {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/*HeaderCSS*/
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    padding-top: 30px;
-}
-
-#logo img {
-    height: 40px;
-    width: auto;
-}
-
-.main-menu a {
-    display: inline-block;
-}
-
-/*Hero CSS*/
-
-.hero-content h1 {
-    padding-top: 150px;
-}
-
 /*Features CSS*/
+.features-section {
+    padding-bottom: 100px;
+    background-color: #ffffff;
+}
+
+.features-promo {
+    padding-top: 50px;
+}
+
+.features-promo p {
+    font-size: 1.2em;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 1.6;
+    padding-top: 5px;
+    color: rgb(116, 116, 116);
+}
+
+.feature-content {
+    padding-top: 80px;
+}
+
 .feature-item {
     padding: 10px 20px;
 }
@@ -88,8 +192,9 @@ header {
 .feature-card {
     position: relative;
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 20px 15px 20px;
     padding-left: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .feature-card::after {
@@ -105,7 +210,7 @@ header {
     background-color: #fff;
 }
 
-#feature-1 { background-color: #05B18A; }
+#feature-1 { background-color: #05b189; }
 #feature-1::after { 
     content: url(../images/shield.png);
     border: 2px solid #05B18A; 
@@ -117,21 +222,56 @@ header {
     border: 2px solid #efa459; 
 }
 
-#feature-3 { background-color: #e3299d; }
+#feature-3 { background-color: #ff59bf; }
 #feature-3::after { 
     content: url(../images/monitor.png);
-    border: 2px solid #e3299d; 
+    border: 2px solid #ff59bf; 
 }
 
-#feature-4 { background-color: #4eabff; }
+#feature-4 { background-color: #4eacff; }
 #feature-4::after { 
     content: url(../images/support.png);
     border: 2px solid #4eabff; 
 }
 
+.feature-des h5 {
+    font-weight: 600;
+    color: #fff9f9;
+}
+
+.feature-des p {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000000;
+}
+
 /*Price Table CSS*/
 .pricing-section {
-    background-color: #F5FBF8; 
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #e7f8f0d2; 
+}
+
+.custom-shape-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 8.1rem;
+}
+
+.custom-shape-2 .shape-fill {
+    fill: #FFFFFF;
 }
 
 .fa-check-circle {
@@ -147,6 +287,7 @@ header {
 }
 
 .pricing-card {
+    margin-top: 30px;
     padding: 20px;
 }
 
@@ -185,6 +326,47 @@ header {
     color: #ffffff;
 }
 
+/* Contact Us CSS*/
+.contactus-section {
+    padding-top: 0px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+}
+
+.contactus {
+    padding: 50px;
+}
+
+#name, #phone, #email, #message {
+    height: 2.9rem;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 18px;
+    border-style: none;
+    border: 1px solid rgba(216, 216, 216, 0.5);
+    box-shadow: inset 0px 0px 5px rgba(216, 216, 216, 0.2);
+}
+
+#message {
+    height: auto;
+    padding: 10px 0px 0px 20px;
+}
+
+#name:focus, #phone:focus, #email:focus, #message:focus {
+    outline: #05B18A;
+    border: 1px solid #05B18A;
+}
+
+.message-btn {
+    width: 6.5rem;
+    margin-left: 0px;
+}
+
+.mapouter {
+    box-shadow: 0px 0px 30px rgba(216, 216, 216, 0.6);
+}
+/* Footer CSS */
 footer {
     position: relative;
     padding: 120px 0px;
@@ -192,7 +374,7 @@ footer {
     background-color: #1D1D3F;
 }
 
-.custom-shape-2 {
+.custom-shape-3 {
     position: absolute;
     top: 0;
     left: 0;
@@ -201,18 +383,18 @@ footer {
     line-height: 0;
 }
 
-.custom-shape-2 svg {
+.custom-shape-3 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 70px;
+    height: 4.3rem;
 }
 
-.custom-shape-2 .shape-fill {
+.custom-shape-3 .shape-fill {
     fill: #ffffff;
 }
 
-.custom-shape-3 {
+.custom-shape-4 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -222,25 +404,35 @@ footer {
     transform: rotate(180deg);
 }
 
-.custom-shape-3 svg {
+.custom-shape-4 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 70px;
+    height: 4.3rem;
     transform: rotateY(180deg);
 }
 
-.custom-shape-3 .shape-fill {
-    fill: #4eabff;
+.custom-shape-4 .shape-fill {
+    fill: #4eacff65;
+}
+
+.links h6 {
+    font-size: 1.1em;
+    font-weight: 700;
+    word-spacing: 2px;
+    color: #ffffff;
 }
 
 .links a {
     display: block;
+    font-size: 1em;
+    font-weight: 500;
+    word-spacing: 2px;
     padding: 4px 0px;
     text-decoration: none;
     color: #ffffff;
 }
 
-.compyright {
-    background-color: #ffffff;
+.copyright {
+    font-size: 0.75em;
 }
