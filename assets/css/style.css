@@ -35,6 +35,18 @@ img {
     color: rgb(116, 116, 116);
 }
 
+/*Custom Navigation Menu*/
+.custom-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 0px 15px 0px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
 /*Header and Hero Section CSS*/
 header {
     position: fixed;
@@ -342,9 +354,14 @@ header {
     z-index: -1;
 }
 
-.pricing-details:hover { box-shadow: 0px 0px 40px #00000033; }
+.pricing-details:hover { 
+    top: -3px;
+    box-shadow: 0px 0px 40px #00000033; 
+}
+
 .pricing-details:hover > .card-title { color: #ffffff; }
 .pricing-details:hover > .price-btn { background-color: #15b290; }
+
 .pricing-details:hover:before {
     color: #fff;
     background-color: #15b290;

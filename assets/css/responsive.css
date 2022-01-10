@@ -8,6 +8,7 @@
         color: rgba(41, 12, 78, 0.8);
     }
 
+    .custom-nav { display: none; }
     .custom-shape-1 svg { height: 7.1rem; }
     .custom-shape-2 svg { height: 6.1rem; }
 
@@ -159,6 +160,7 @@
         color: rgba(41, 12, 78, 0.8);
     }
 
+    .custom-nav { display: none; }
     .custom-shape-1 svg { height: 7.1rem; }
     .custom-shape-2 svg { height: 6.1rem; }
 
@@ -312,6 +314,7 @@
         color: rgba(41, 12, 78, 0.8);
     }
 
+    .custom-nav { display: none; }
     .custom-shape-1 svg { height: 7.1rem; }
     .custom-shape-2 svg { height: 6.1rem; }
 
