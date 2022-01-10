@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 578px) {
 
     .main-menu {
         display: none;
@@ -18,5 +18,9 @@
 
     #toggle:checked + .menu {
         display: block;
+    }
+
+    .mapouter {
+        display: none;
     }
 }
