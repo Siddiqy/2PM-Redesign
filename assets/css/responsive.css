@@ -70,8 +70,8 @@
         padding: 0px 20px 80px; 
     }
 
-    div#content { order: 2; }
-    div#image { order: 1; }
+    #content { order: 2; }
+    #image { order: 1; }
 
     .hero-content h1 {
         font-size: 2.4em;
@@ -456,8 +456,6 @@
     }
 
     .contactus { padding: 30px; }
-
-    #name, #phone, #email, #message { height: 2.8rem; }
 
     .top-padding { padding-top: 0px; }
 
