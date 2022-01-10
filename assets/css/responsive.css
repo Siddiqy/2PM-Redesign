@@ -141,17 +141,20 @@
 
     .top-padding { padding-top: 0px; }
 
-    .loaction-map { padding-top: 50px; }
+    .loaction-map { 
+        padding: 0px 15px;
+        padding-top: 50px;
+     }
 
     .mapouter, #gmap_canvas, .gmap_canvas {
         height: 18rem;
-        width: 20.5rem;
+        width: 100%;
     }
 
     footer { padding: 100px 15px 80px 15px; }
 }
 
-@media screen and (max-width: 767px) and (min-width: 577px) {
+@media screen and ((max-width: 767px) and (min-width: 577px)) {
 
     html { font-size: 14px; }
 
@@ -171,14 +174,14 @@
     .mobile-menu a { float: left; }
 
     .mobile-menu a img {
-        height: 40px;
+        height: 45px;
         width: auto;
     }
 
     label {
         position: relative;
         float: right;
-        font-size: 2em;
+        font-size: 2.3em;
         cursor: pointer;
     }
 
@@ -189,8 +192,8 @@
         width: 6rem;
         height: auto;
         display: none; 
-        top: 65%;
-        right: 10%;
+        top: 67%;
+        right: 6%;
         float: right;
         padding: 5px;
         background-color: #ffffff; }
@@ -222,8 +225,8 @@
         padding: 0px 20px 80px; 
     }
 
-    div#content { order: 2; }
-    div#image { order: 1; }
+    #content { order: 2; }
+    #image { order: 1; }
 
     .hero-content h1 {
         font-size: 2.4em;
@@ -237,25 +240,7 @@
         font-weight: 500;
     }
 
-    .start-trial { text-align: center; }
-
-    .trial-email { margin-bottom: 15px; }
-
-    .trial-btn { 
-        text-align: center;
-        margin-left: 0px;
-     }
-
     .features-section { padding-bottom: 80px; }
-
-    .features-promo { padding: 30px; }
-
-    .feature-content { padding: 0px 10px 0px 20px; }
-
-    .feature-card {
-        padding: 15px 15px 10px 15px;
-        padding-left: 45px;
-    }
 
     .feature-des h5 { font-weight: 600; }
 
@@ -293,11 +278,14 @@
 
     .top-padding { padding-top: 0px; }
 
-    .loaction-map { padding-top: 50px; }
+    .loaction-map { 
+        padding: 0px 15px;
+        padding-top: 50px;
+    }
 
     .mapouter, #gmap_canvas, .gmap_canvas {
         height: 16.5rem;
-        width: 25.5rem;
+        width: 100%;
     }
 
     footer {
@@ -459,9 +447,11 @@
 
     .top-padding { padding-top: 0px; }
 
+    .loaction-map { padding: 0px 10px; }
+
     .mapouter, #gmap_canvas, .gmap_canvas {
         height: 15rem;
-        width: 20rem;
+        width: 100%;
     }
 
     footer {
