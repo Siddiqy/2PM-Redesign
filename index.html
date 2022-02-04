@@ -4,77 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>2pm</title>
 </head>
     <body>
-        <main>
-            <section class="hero-section">
-                <div class="container-fluid custom-nav">
-                    <div class="row justify-content-center">
-                        <nav class="row nav-menu col-sm-10 justify-content-between">
+        <!--==================Main Scroll Navigation Start=====================-->
+        <header class="custom-nav">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <nav class="col-lg-10">
+                        <div class="row justify-content-between">
                             <div class="col-sm-3 col-md-2">
                                 <a href="index.html" id="logo"><img src="assets/images/logo.png" alt=""></a>
                             </div>
-                            <div class="main-menu col-sm-6 col-md-8 text-center">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                <a class="nav-link" href="#features">Features</a>
-                                <a class="nav-link" href="#pricing">Our Pricing</a>
-                                <a class="nav-link" href="#contact">Contact Us</a>
-                                <a class="nav-link" href="#">How To</a>
-                            </div>
-                            <div class="start-trial col-sm-3 col-md-2 text-end">
-                                <button type="button" class="trial-btn">Start Trial</button>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="container glass-container">
-                    <header>
-                        <div class="container">
-                            <nav class="row nav-menu justify-content-between">
-                                <div class="col-sm-3">
-                                    <a href="index.html" id="logo"><img src="assets/images/logo.png" alt=""></a>
-                                </div>
-                                <div class="main-menu col-sm-8 text-end">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <div class="col-sm-6 col-md-8">
+                                <div class="main-menu text-center">
+                                    <a class="nav-link" href="#">Home</a>
                                     <a class="nav-link" href="#features">Features</a>
                                     <a class="nav-link" href="#pricing">Our Pricing</a>
                                     <a class="nav-link" href="#contact">Contact Us</a>
                                     <a class="nav-link" href="#">How To</a>
                                 </div>
-                            </nav>
-                            <nav class="mobile-menu">
-                                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
-                                <label for="toggle">&#9776;</label>
-                                <input type="checkbox" id="toggle">
-                                <div class="menu">
-                                    <a href="#features">Features</a>
-                                    <a href="#pricing">Our Pricing</a>
-                                    <a href="#contact">Contact Us</a>
-                                    <a href="#">How To</a>
-                                </div>
-                            </nav>
-                        </div>
-                    </header>
-                    <div class="row hero-content text-center justify-content-center align-items-center">
-                        <h1 class="col-12 col-md-7">A Simple Employee Monitoring Software For Your Business.</h1>
-                        <div class="col-12 col-md-6 text-start" id="content">
-                            <div class="hero-des col-12 col-md-10 offset-md-1">
-                                <span>Simple HR Tool</span>
-                                <p>A handy tool for the new normal of working from home. 5PM gives both managers and employees a tool to track and monitor 
-                                    their perfomance and grow as a team.
-                                </p>
-                                <div class="start-trial col-12">
-                                    <input type="email" class="trial-email col-10 col-sm-6 col-md-6" placeholder="Your email"> 
+                            </div>
+                            <div class="col-sm-3 col-md-2">
+                                <div class="start-trial text-end">
                                     <button type="button" class="trial-btn">Start Trial</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6" id="image">
-                            <img class="col-10 col-md-10 mt-3" src="assets/images/banner-2pm.png" id="hero-img">
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--==================Main Scroll Navigation End=====================-->    
+
+        <main>    
+            <!--==================Hero Section Start=====================-->
+            <section class="hero-section">
+                <div class="container glass-container">
+                    <nav class="nav-menu">
+                        <div class="row justify-content-between">
+                            <div class="col-sm-3">
+                                <a href="index.html" id="logo"><img src="assets/images/logo.png" alt=""></a>
+                            </div>
+                            <div class="main-menu col-sm-8 text-end">
+                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#features">Features</a>
+                                <a class="nav-link" href="#pricing">Our Pricing</a>
+                                <a class="nav-link" href="#contact">Contact Us</a>
+                                <a class="nav-link" href="#">How To</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <nav class="mobile-menu">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                        <label for="toggle">&#9776;</label>
+                        <input type="checkbox" id="toggle">
+                        <div class="menu">
+                            <a href="#features">Features</a>
+                            <a href="#pricing">Our Pricing</a>
+                            <a href="#contact">Contact Us</a>
+                            <a href="#">How To</a>
+                        </div>
+                    </nav>
+                    <div class="hero-content">
+                        <div class="row">
+                            <div class="hero-heading text-center">
+                                <h1>A Simple Employee Monitoring Software <br> For Your Business.</h1>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="row">
+                                    <div class="col-12 col-md-10 offset-md-1">
+                                        <div class="hero-des text-start">
+                                            <span>Simple HR Tool</span>
+                                            <p>A handy tool for the new normal of working from home. 5PM gives both managers and employees a tool to track and monitor 
+                                                their perfomance and grow as a team.
+                                            </p>
+                                        </div>
+                                        <div class="start-trial col-12">
+                                            <input type="email" class="trial-email col-10 col-sm-6 col-md-6" placeholder="Your email"> 
+                                            <button type="button" class="trial-btn">Start Trial</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="row">
+                                    <div class="col-10 col-md-10 mt-3">
+                                        <img src="assets/images/banner-2pm.png" id="hero-img">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="hero-svg"></div>
@@ -85,48 +109,55 @@
                     </svg>
                 </div>
             </section>
+            <!--==================Hero Section End=====================-->    
+
+            <!--==================Features Section Start=====================-->
             <section class="features-section" id="features">
                 <div class="container">
-                    <div class="row section-header justify-content-center text-center">
-                        <h1>Why Should You Choose 2PM?</h1>
-                    </div> 
                     <div class="row"> 
-                        <div class="features-promo col-12 col-md-6">
-                            <img src="assets/images/why.jpg" alt="img">
-                            <p>2PM is wasy to use, it's not a spyware so, it promotes clarity between the managers 
-                                and the employees. Screenshot monitoring helps employees post proofs of 
-                                work and easy reporting helps HR managers determine perfomances for their team members.</p>
+                        <div class="section-header text-center">
+                            <h1>Why Should You Choose 2PM?</h1>
                         </div>
-                        <div class="feature-content col-12 col-md-6">
-                            <div class="feature-item">
-                                <div class="feature-card col-12 col-md-10 offset-md-1"  id="feature-1">
-                                    <div class="feature-des">
-                                        <h5>Latest Technology</h5>
-                                        <p>Built with the lates web technologies to ensure a smooth experience built to last.</p>
+                        <div class="col-12 col-md-6">
+                            <div class="features-promo">
+                                <img src="assets/images/why.jpg" alt="img">
+                                <p>2PM is wasy to use, it's not a spyware so, it promotes clarity between the managers 
+                                    and the employees. Screenshot monitoring helps employees post proofs of 
+                                    work and easy reporting helps HR managers determine perfomances for their team members.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="feature-content">
+                                <div class="feature-item">
+                                    <div class="feature-card col-12 col-md-10 offset-md-1"  id="feature-1">
+                                        <div class="feature-des">
+                                            <h5>Latest Technology</h5>
+                                            <p>Built with the lates web technologies to ensure a smooth experience built to last.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="feature-item col-12">
-                                <div class="feature-card col-12 col-md-10 offset-md-1" id="feature-2">
-                                    <div class="feature-des">
-                                        <h5>Security Included</h5>
-                                        <p>Private and secured applications, only the company availing the service owns their own data and no one else.</p>
+                                <div class="feature-item col-12">
+                                    <div class="feature-card col-12 col-md-10 offset-md-1" id="feature-2">
+                                        <div class="feature-des">
+                                            <h5>Security Included</h5>
+                                            <p>Private and secured applications, only the company availing the service owns their own data and no one else.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="feature-item col-12">
-                                <div class="feature-card col-md-10 offset-md-1"  id="feature-3">
-                                    <div class="feature-des">
-                                        <h5>Desktop App</h5>
-                                        <p>The lightweight Desktop App ensures accurate times worked. Tracks time offline for the times and employee might have connectivity issues.</p>
+                                <div class="feature-item col-12">
+                                    <div class="feature-card col-md-10 offset-md-1"  id="feature-3">
+                                        <div class="feature-des">
+                                            <h5>Desktop App</h5>
+                                            <p>The lightweight Desktop App ensures accurate times worked. Tracks time offline for the times and employee might have connectivity issues.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="feature-item col-12">
-                                <div class="feature-card col-md-10 offset-md-1"  id="feature-4">
-                                    <div class="feature-des">
-                                        <h5>Customer Support</h5>
-                                        <p>Create a ticket and we will be providing you with personal support for bugs and issues faced while using the application.</p>
+                                <div class="feature-item col-12">
+                                    <div class="feature-card col-md-10 offset-md-1"  id="feature-4">
+                                        <div class="feature-des">
+                                            <h5>Customer Support</h5>
+                                            <p>Create a ticket and we will be providing you with personal support for bugs and issues faced while using the application.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -134,126 +165,150 @@
                     </div>
                 </div>
             </section>
+            <!--==================Features Section End=====================-->
+
+            <!--==================Pricing Section Start=====================-->
             <section class="pricing-section" id="pricing">
                 <div class="container pricing-container">
-                    <div class="row section-header justify-content-center text-center">
-                        <h1>Simple, Transparent Pricing Of 2PM</h1>
-                        <p>Simple pricing for your organisation's need, no surprise charges, <br> you get billed for what you sign up for.</p>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="section-header text-center">
+                            <h1>Simple, Transparent Pricing Of 2PM</h1>
+                            <p>Simple pricing for your organisation's need, no surprise charges, <br> you get billed for what you sign up for.</p>
+                        </div>
                     </div>
                     <div class="row justify-content-between">
-                        <div class="pricing-card col-12 col-md-4">
-                            <div class="pricing-details pricing-1 text-center">
-                                <h4 class="card-title">Free</h4>
-                                <p class="card-text pt-5 text-start">$ <sup>0</sup> /Limited to 3 users</p>
-                                <ul class="price-list text-start">
-                                    <li><i class="far fa-check-circle"></i> Time Tracking</li>
-                                    <li><i class="far fa-check-circle"></i> Screen Monitoring</li>
-                                    <li><i class="far fa-check-circle"></i> <b>3</b> screenshots per hour</li>
-                                    <li><i class="far fa-check-circle"></i> Screenshots stored for <b>2 weeks</b></li>
-                                    <li><i class="far fa-times-circle"></i> <del>Individual settings</del></li>
-                                    <li><i class="far fa-times-circle"></i> <del>Activity level tracking</del></li>
-                                    <li><i class="far fa-times-circle"></i> <del>App & URL tracking</del></li>
-                                </ul>
-                                <button type="button" class="price-btn">Get Started</button>
+                        <div class="col-12 col-md-4">
+                            <div class="pricing-card">
+                                <div class="pricing-details pricing-1 text-center">
+                                    <h4 class="card-title">Free</h4>
+                                    <p class="card-text pt-5 text-start">$ <sup>0</sup> /Limited to 3 users</p>
+                                    <ul class="price-list text-start">
+                                        <li><i class="far fa-check-circle"></i> Time Tracking</li>
+                                        <li><i class="far fa-check-circle"></i> Screen Monitoring</li>
+                                        <li><i class="far fa-check-circle"></i> <b>3</b> screenshots per hour</li>
+                                        <li><i class="far fa-check-circle"></i> Screenshots stored for <b>2 weeks</b></li>
+                                        <li><i class="far fa-times-circle"></i> <del>Individual settings</del></li>
+                                        <li><i class="far fa-times-circle"></i> <del>Activity level tracking</del></li>
+                                        <li><i class="far fa-times-circle"></i> <del>App & URL tracking</del></li>
+                                    </ul>
+                                    <button type="button" class="price-btn">Get Started</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="pricing-card col-12 col-md-4">
-                            <div class="pricing-details pricing-2 text-center">
-                                <h4 class="card-title">Standard</h4>
-                                <p class="card-text pt-5 text-start">$ <sup>3.99</sup> /Limited to 3 users</p>
-                                <ul class="price-list text-start">
-                                    <li><i class="far fa-check-circle"></i> Time Tracking</li>
-                                    <li><i class="far fa-check-circle"></i> Screen Monitoring</li>
-                                    <li><i class="far fa-check-circle"></i> <b>3</b> screenshots per hour</li>
-                                    <li><i class="far fa-check-circle"></i> Screenshots stored for <b>2 weeks</b></li>
-                                    <li><i class="far fa-check-circle"></i> Individual settings</li>
-                                    <li><i class="far fa-check-circle"></i> Activity level tracking</li>
-                                    <li><i class="far fa-times-circle"></i> <del>App & URL tracking</del></li>
-                                </ul>
-                                <button type="button" class="price-btn">Get Started</button>         
+                        <div class="col-12 col-md-4">
+                            <div class="pricing-card">
+                                <div class="pricing-details pricing-2 text-center">
+                                    <h4 class="card-title">Standard</h4>
+                                    <p class="card-text pt-5 text-start">$ <sup>3.99</sup> /Limited to 3 users</p>
+                                    <ul class="price-list text-start">
+                                        <li><i class="far fa-check-circle"></i> Time Tracking</li>
+                                        <li><i class="far fa-check-circle"></i> Screen Monitoring</li>
+                                        <li><i class="far fa-check-circle"></i> <b>3</b> screenshots per hour</li>
+                                        <li><i class="far fa-check-circle"></i> Screenshots stored for <b>2 weeks</b></li>
+                                        <li><i class="far fa-check-circle"></i> Individual settings</li>
+                                        <li><i class="far fa-check-circle"></i> Activity level tracking</li>
+                                        <li><i class="far fa-times-circle"></i> <del>App & URL tracking</del></li>
+                                    </ul>
+                                    <button type="button" class="price-btn">Get Started</button>         
+                                </div>
                             </div>
                         </div>
-                        <div class="pricing-card col-12 col-md-4">
-                            <div class="pricing-details pricing-3 text-center">
-                                <h4 class="card-title">Professional</h4>
-                                <p class="card-text pt-5 text-start">$ <sup>5.99</sup> /Limited to 3 users</p>
-                                <ul class="price-list text-start">
-                                    <li><i class="far fa-check-circle"></i> Time Tracking</li>
-                                    <li><i class="far fa-check-circle"></i> Screen Monitoring</li>
-                                    <li><i class="far fa-check-circle"></i> <b>3</b> screenshots per hour</li>
-                                    <li><i class="far fa-check-circle"></i> Screenshots stored for <b>2 weeks</b></li>
-                                    <li><i class="far fa-check-circle"></i> Individual settings</li>
-                                    <li><i class="far fa-check-circle"></i> Activity level tracking</li>
-                                    <li><i class="far fa-check-circle"></i> <del>App & URL tracking</del></li>
-                                </ul>
-                                <button type="button" class="price-btn">Get Started</button>         
-                            </div>               
+                        <div class="col-12 col-md-4">
+                            <div class="pricing-card">
+                                <div class="pricing-details pricing-3 text-center">
+                                    <h4 class="card-title">Professional</h4>
+                                    <p class="card-text pt-5 text-start">$ <sup>5.99</sup> /Limited to 3 users</p>
+                                    <ul class="price-list text-start">
+                                        <li><i class="far fa-check-circle"></i> Time Tracking</li>
+                                        <li><i class="far fa-check-circle"></i> Screen Monitoring</li>
+                                        <li><i class="far fa-check-circle"></i> <b>3</b> screenshots per hour</li>
+                                        <li><i class="far fa-check-circle"></i> Screenshots stored for <b>2 weeks</b></li>
+                                        <li><i class="far fa-check-circle"></i> Individual settings</li>
+                                        <li><i class="far fa-check-circle"></i> Activity level tracking</li>
+                                        <li><i class="far fa-check-circle"></i> <del>App & URL tracking</del></li>
+                                    </ul>
+                                    <button type="button" class="price-btn">Get Started</button>         
+                                </div>   
+                            </div>    
                         </div>
                     </div>
-                </div>
-                <div class="custom-shape-2">
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-                    </svg>
                 </div>
             </section>
+            <!--==================Pricing Section End=====================-->
+
+            <!--==================Contactus Section Start=====================-->
             <section class="contactus-section" id="contact">
                 <div class="container glass-container">
-                    <div class="row section-header justify-content-center text-center">
-                        <h1 class="top-padding">Contact With Us</h1>
-                        <p>Not seeing a package that suits your needs? Let us know what you are looking for <br> and we can discuss for a custom package designed for your business needs.</p>
-                    </div>
-                    <div class="row contactus">
-                        <div class="col-12 col-md-6">
-                            <form id="form-validation" class="form-submit">
-                                <div class="col-12 col-md-11">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Full name">
-                                </div>
-                                <div class="col-12 col-md-11">
-                                    <input type="tel" class="form-control " name="phone" id="phone" placeholder="Your phone">
-                                </div>
-                                <div class="col-12 col-md-11">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your email">
-                                </div>
-                                <div class="col-12 col-md-11">
-                                    <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message"></textarea>
-                                </div>
-                                <button type="submit" class="message-btn">Send</button> 
-                            </form>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="section-header text-center">
+                            <h1 class="top-padding">Contact With Us</h1>
+                            <p>Not seeing a package that suits your needs? Let us know what you are looking for <br> and we can discuss for a custom package designed for your business needs.</p>
                         </div>
-                        <div class="loaction-map col-12 col-md-6 justify-content-center">
-                            <div class="mapouter">
-                                <div class="gmap_canvas">
-                                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=357,%2010a%20Modhubagh%20Rd,%20Dhaka%201217&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><a href="https://www.embedgooglemap.net"></a>
+                    </div>
+                    <div class="contactus">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <form id="form-validation" class="form-submit">
+                                    <div class="col-12 col-md-11">
+                                        <input type="text" class="form-control name" name="name" id="name" placeholder="Full name">
+                                    </div>
+                                    <div class="col-12 col-md-11">
+                                        <input type="tel" class="form-control phone" name="phone" id="phone" placeholder="Your phone">
+                                    </div>
+                                    <div class="col-12 col-md-11">
+                                        <input type="email" class="form-control email" name="email" id="email" placeholder="Your email">
+                                    </div>
+                                    <div class="col-12 col-md-11">
+                                        <textarea class="form-control message" name="message" id="message" rows="6" placeholder="Message"></textarea>
+                                    </div>
+                                    <button type="submit" class="message-btn">Send</button> 
+                                </form>
+                            </div>
+                            <div class="loaction-map col-12 col-md-6 justify-content-center">
+                                <div class="mapouter">
+                                    <div class="gmap_canvas">
+                                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=357,%2010a%20Modhubagh%20Rd,%20Dhaka%201217&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><a href="https://www.embedgooglemap.net"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>    
             </section>
+            <!--==================Contactus Section End=====================-->
         </main>
+
+        <!--==================Footer Section Start=====================-->
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="footer-des col-12 col-md-4 pe-4 pt-3">
-                        <a href="index.html" id="logo"><img src="assets/images/logo.png" alt=""></a>
-                        <p>A handy tool for the new normal of working from home. 2PM gives both managers and employees a tool to track and monitor their performance and grow as a team</p>
+                    <div class="col-12 col-md-4 pe-4 pt-3">
+                        <div class="footer-des">
+                            <a href="index.html" id="logo"><img src="assets/images/logo.png" alt=""></a>
+                            <p>A handy tool for the new normal of working from home. 2PM gives both managers and employees a tool to track and monitor their performance and grow as a team</p>
+                        </div>
                     </div>
-                    <div class="links col-6 col-md-2">
-                        <h6 class="pb-1">USEFUL LINKS</h6>
-                        <a href="#">About Products</a>
-                        <a href="#">Our Portfolio</a>
-                        <a href="#">Our Products</a>
+                    <div class="col-6 col-md-2">
+                        <div class="links">
+                            <h6 class="pb-1">USEFUL LINKS</h6>
+                            <a href="#">About Products</a>
+                            <a href="#">Our Portfolio</a>
+                            <a href="#">Our Products</a>
+                        </div>
                     </div>
-                    <div class="links col-6 col-md-2">
-                        <h6 class="pb-1">QUICK LINKS</h6>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms & Conditions</a>
+                    <div class="col-6 col-md-2">
+                        <div class="links">
+                            <h6 class="pb-1">QUICK LINKS</h6>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms & Conditions</a>
+                        </div>
                     </div>
-                    <div class="links col-12 col-md-4">
-                        <h6 class="pb-1">ADDRESS</h6>
-                        <a href="mailto: support@2pm.com" class="mailto pb-2"><i class="far fa-envelope"></i> support@2pm.com</a>
-                        <address><i class="fas fa-map-marker-alt"></i> 357/10A-Modhubag, Moghbazar, Dhaka-1217 <br> Bangladesh</address>
+                    <div class="col-12 col-md-4">
+                        <div class="links">
+                            <h6 class="pb-1">ADDRESS</h6>
+                            <a href="mailto: support@2pm.com" class="mailto pb-2"><i class="far fa-envelope"></i> support@2pm.com</a>
+                            <address><i class="fas fa-map-marker-alt"></i> 357/10A-Modhubag, Moghbazar, Dhaka-1217 <br> Bangladesh</address>
+                        </div>
                     </div>
                     <div class="text-center pt-2">
                         <span class="copyright">Copyright ©2021. 2pm All Rights Reserved</span>
@@ -275,6 +330,8 @@
                 </svg>
             </div>
         </footer>
+        <!--==================Footer Section Start=====================-->
+
         <script src="./assets/js/main.js"></script>
     </body>
 </html>

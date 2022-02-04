@@ -154,7 +154,7 @@
     footer { padding: 100px 15px 80px 15px; }
 }
 
-@media screen and ((max-width: 767px) and (min-width: 577px)) {
+@media screen and (max-width: 768px) and (min-width: 577px) {
 
     html { font-size: 14px; }
 
@@ -293,7 +293,7 @@
     }
 }
 
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (min-width: 769px) {
     
     html { font-size: 15px; }
 

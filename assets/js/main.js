@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    if(window.innerWidth >= 992) {
+    if(window.innerWidth >= 1200) {
         window.addEventListener('scroll', () => {
             let scrolling = window.scrollY;
             if(scrolling  > 50) {
